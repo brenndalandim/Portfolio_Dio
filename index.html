@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brennda Landim</title>
+
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/acordeon.css">
+    <link rel="stylesheet" href="./assets/css/skills.css">
+    <link rel="stylesheet" href="./assets/css/languages.css">
+    <link rel="stylesheet" href="./assets/css/portfolio.css">
+    <link rel="stylesheet" href="./assets/css/experience.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap">
+
+    <script src="https://kit.fontawesome.com/b46cc840ef.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <header class="header">
+
+            <i class="fa-solid fa-ellipsis dots"></i>
+
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Sem_imagem.jpg" alt="Carregando imagem" class="photo" id="profileImg">
+    
+            <h1 class="title" id="profileName">Carregando...</h1>
+    
+            <div class="information">
+                <a id="profileJob" href="https://www.linkedin.com/in/brenndalandim/"><i class="fa-solid fa-user"></i> Carregando...</a>
+                <p id="profileLocation"><i class="fa-solid fa-location-dot"></i>Carregando...</p>
+                <a id="profilePhone" target="_blank"><i class="fa-brands fa-whatsapp"></i>Carregando...</a>
+                <a id="profileEmail"><i class="fa-solid fa-envelope"></i>Carregando...</a>
+            </div>
+    
+        </header>
+        <section class="acordeon">
+            <button class="trigger">
+                <h2>Skills</h2>
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+
+            <div class="content">
+                <div class="skills">
+
+                    <div class="hardSkills">
+                        <h3>Habilidades Profissionais:</h3>
+                        <ul id="hardSkills">
+                            <li><i class="fa-brands fa-html5"></i></li>
+                            <li><i class="fa-brands fa-css3-alt"></i></li>
+                            <li><i class="fa-brands fa-js"></i></li>
+                            <li><i class="fa-brands fa-python"></i></li>
+                        </ul>
+                    </div>
+    
+                    <div class="softSkills">
+                        <h3>Habilidades Pessoais:</h3>
+                        <ul id="softSkills">
+                            <li>Liderança de Equipe</li>
+                            <li>Comunicação</li>
+                            <li>Resolução de Problemas</li>
+                            <li>Organização</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger">
+                <h2>Idiomas</h2>
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+
+            <div class="content">
+                <ul id="languages" class="languages">
+
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger">
+                <h2>Portfólio</h2>
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+
+            <div class="content">
+                <ul id="portfolio" class="portfolio">
+                    
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger">
+                <h2>Experiência Profissional</h2>
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+
+            <div class="content">
+                <ul id="experience" class="experience">
+                    
+                </ul>
+            </div>
+        </section>
+
+    </main>
+    
+    <script src="/assets/js/api.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/acordeon.js"></script>
+</body>
+</html>
