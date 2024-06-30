@@ -42,12 +42,14 @@
     {
       "name": "Pokedex",
       "url": "https://github.com/brenndalandim/Projeto-Pokedex",
-      "logo": "fa-brands fa-github"
+      "logo": "fa-brands fa-github",
+      "description": "Pokedex online com uso da api PokeApi e site responsivo"
     },
     {
       "name": "Câmara dos Deputados",
       "url": "https://github.com/brenndalandim/Projeto_Camara_Deputados",
-      "logo": "fa-brands fa-github"
+      "logo": "fa-brands fa-github",
+      "description": "Uso de API da câmara para criação de um site responsivo de pesquisa de deputados, partidos e eventos"
     }
   ],
   "professionalExperience": [
