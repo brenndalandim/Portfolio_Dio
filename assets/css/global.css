@@ -46,4 +46,9 @@ main{
     a:hover{
         text-decoration: underline !important;
     }
+
+    .header .photo{
+        width: 270px;
+        height: 270px;
+    }
 }
