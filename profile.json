@@ -41,12 +41,12 @@
     {
       "name": "Pokedex",
       "url": "https://github.com/brenndalandim/Projeto-Pokedex",
-      "github": true
+      "logo": "fa-brands fa-github"
     },
     {
       "name": "Câmara dos Deputados",
       "url": "https://github.com/brenndalandim/Projeto_Camara_Deputados",
-      "github": true
+      "logo": "fa-brands fa-github"
     }
   ],
   "professionalExperience": [
