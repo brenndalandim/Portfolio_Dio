@@ -40,7 +40,7 @@
   ],
   "portfolio": [
     {
-      "name": "Pokedex",
+      "name": "Pokédex",
       "url": "https://github.com/brenndalandim/Projeto-Pokedex",
       "logo": "fa-brands fa-github",
       "description": "Pokedex online com uso da api PokeApi e site responsivo"
