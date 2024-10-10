@@ -3,8 +3,7 @@
   "photo": "https://avatars.githubusercontent.com/u/125628894?v=4",
   "job": "Monitora INFNET",
   "location": "Rio de Janeiro - RJ",
-  "phone": "21983363220",
-  "email": "brenndalandim@icloud.com",
+  "email": "brenndalandim@icloud.com"
   "skills": {
     "hardSkills": [
       {
@@ -36,7 +35,8 @@
   "languages": [
     "Português BR",
     "Inglês (fluente)",
-    "Japonês (iniciante)"
+    "Espanhol (básico)",
+    "Japonês (básico)"
   ],
   "portfolio": [
     {
@@ -46,10 +46,16 @@
       "description": "Pokedex online com uso da api PokeApi e site responsivo"
     },
     {
-      "name": "Câmara dos Deputados",
-      "url": "https://github.com/brenndalandim/Projeto_Camara_Deputados",
+      "name": "Bluesky Fictício",
+      "url": "https://github.com/brenndalandim/Projeto_Bluesky_Ficticio",
       "logo": "fa-brands fa-github",
-      "description": "Uso de API da câmara para criação de um site responsivo de pesquisa de deputados, partidos e eventos"
+      "description": "Projeto em React inspirado no rede social Bluesky consumindo API de dados fictícios"
+    },
+    {
+      "name": "SPA Candidato a Prefeito",
+      "url": "https://github.com/brenndalandim/Projeto_SPA_Deputadoo",
+      "logo": "fa-brands fa-github",
+      "description": "Single Page Application de um candidato a prefeito desenvolvida em React"
     }
   ],
   "professionalExperience": [
