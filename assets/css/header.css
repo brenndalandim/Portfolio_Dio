@@ -43,6 +43,20 @@
     color: #9321ff;
 }
 
+#profileCv{
+    border: 1px solid #9321ff;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 70%;
+    text-align: center;
+
+    &:hover{
+        text-decoration: none !important;
+        background-color: #9421ff28;
+        border: 1px solid #9421ff96;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .header{
         display: grid;

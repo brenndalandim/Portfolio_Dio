@@ -3,7 +3,7 @@
   "photo": "https://avatars.githubusercontent.com/u/125628894?v=4",
   "job": "Monitora INFNET",
   "location": "Rio de Janeiro - RJ",
-  "email": "brenndalandim@icloud.com"
+  "email": "brenndalandim@icloud.com",
   "skills": {
     "hardSkills": [
       {
@@ -53,7 +53,7 @@
     },
     {
       "name": "SPA Candidato a Prefeito",
-      "url": "https://github.com/brenndalandim/Projeto_SPA_Deputadoo",
+      "url": "https://github.com/brenndalandim/Projeto_SPA_Deputado",
       "logo": "fa-brands fa-github",
       "description": "Single Page Application de um candidato a prefeito desenvolvida em React"
     }

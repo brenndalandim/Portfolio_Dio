@@ -14,13 +14,6 @@ function updateProfileData(profileData){
     let profileLocation = document.getElementById("profileLocation")
     profileLocation.innerHTML = `<i class="fa-solid fa-location-dot"></i> ${profileData.location}`
 
-    let profilePhone = document.getElementById("profilePhone")
-    let ddd = (profileData.phone).substring(0,2)
-    let phone1 = (profileData.phone).substring(2,7)
-    let phone2 = (profileData.phone).substring(7)
-    profilePhone.innerHTML = `<i class="fa-brands fa-whatsapp"></i> (${ddd}) ${phone1}-${phone2}`
-    profilePhone.href = `https://wa.me/55${profileData.phone}?text=olá%20vim%20do%20seu%20portfolio`
-
     let profileEmail = document.getElementById("profileEmail")
     profileEmail.innerHTML = `<i class="fa-solid fa-envelope"></i> ${profileData.email}`
     profileEmail.href = `mailto:${profileData.email}`
