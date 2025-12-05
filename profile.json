@@ -1,7 +1,7 @@
 {
   "name": "Brennda Landim",
   "photo": "https://avatars.githubusercontent.com/u/125628894?v=4",
-  "job": "Monitora INFNET",
+  "job": ["Analista de TI MONKS", "Monitora INFNET"],
   "location": "Rio de Janeiro - RJ",
   "email": "brenndalandim@icloud.com",
   "skills": {
