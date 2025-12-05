@@ -24,7 +24,6 @@
       {
         "name": "Python",
         "logo": "fa-brands fa-python"
-      }
       },
       {
         "name": "Golang",
@@ -76,6 +75,6 @@
       "name": "Analista de TI - MONKS",
       "period": "Fev 2025 - até o momento",
       "description": "Atuação sob demanda para diversos clientes, desenvolvendo e otimizando feeds de produtos integrados ao Google Merchant e outras plataformas. Realizo análises técnicas, proponho melhorias estruturais, desenvolvimento back-end em Go, criação de novos projetos, manutenção evolutiva e aprimoramento de desempenho em sistemas já existentes."
-    },
+    }
   ]
 }
