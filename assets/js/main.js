@@ -8,11 +8,12 @@ function updateProfileData(profileData){
     profileImg.alt = profileData.name
     profileImg.title = profileData.name
 
-    let profileJob1 = document.getElementById("profileJob1")
-    profileJob1.innerHTML = `<i class="fa-solid fa-user"></i> ${profileData.job[0]}`
-    
-    let profileJob2 = document.getElementById("profileJob2")
-    profileJob2.innerHTML = `<i class="fa-solid fa-user"></i> ${profileData.job[1]}`
+    profileData.job.forEach((job, index) => {
+      const el = document.getElementById(`profileJob${index + 1}`)
+      if (el) {
+        el.innerHTML = `<i class="fa-solid fa-user"></i> ${job}`
+      }
+    })
 
     let profileLocation = document.getElementById("profileLocation")
     profileLocation.innerHTML = `<i class="fa-solid fa-location-dot"></i> ${profileData.location}`
@@ -73,4 +74,5 @@ function updateExperience(profileData){
     updateExperience(profileData)
 
 })()
+
 
